@@ -4,10 +4,7 @@
     <Configuration>
       <Name>Development</Name>
       <Options>
-        <AssessmentRuleSuppressionSetting />
-        <UseWinAuth>false</UseWinAuth>
-        <WinAuthUserName />
-        <WinAuthDomain />
+        <Run64BitRuntime>false</Run64BitRuntime>
         <UserIDs />
         <UserPasswords />
         <OfflineMode>false</OfflineMode>
@@ -16,7 +13,7 @@
           <ConfigurationSetting>
             <Id>LastModifiedTime</Id>
             <Name>LastModifiedTime</Name>
-            <Value xsi:type="xsd:dateTime">2020-08-30T02:06:19.2643407Z</Value>
+            <Value xsi:type="xsd:dateTime">2020-08-30T17:24:48.858177Z</Value>
           </ConfigurationSetting>
         </ParameterConfigurationSensitiveValues>
       </Options>
