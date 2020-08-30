@@ -12,11 +12,11 @@
   <DataSourceViews />
   <DeploymentModelSpecificContent>
     <Manifest>
-      <SSIS:Project SSIS:ProtectionLevel="DontSaveSensitive" xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">
+      <SSIS:Project SSIS:ProtectionLevel="EncryptSensitiveWithUserKey" xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">
         <SSIS:Properties>
           <SSIS:Property SSIS:Name="ID">{216ff94e-c0fe-4fe6-a4b2-e596a91e6dfc}</SSIS:Property>
           <SSIS:Property SSIS:Name="Name">Proyecto_DMD</SSIS:Property>
-          <SSIS:Property SSIS:Name="VersionMajor">0</SSIS:Property>
+          <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionBuild">0</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionComments">
@@ -26,6 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP-6C05026</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAABx4MTv3CbkmQQS64Au/g+AAAAAACAAAAAAAQZgAAAAEAACAAAACtSrg7+UUI9PwR2vQSfovPge/hP+vmuqkSDeaW9WUMSgAAAAAOgAAAAAIAACAAAAAHVbWcrplpfPNXeJUTAdFd03KKEVBKKYYQhDwmT+XyPZAAAADl4JBekvewGYgLDzBWdtwyPJ26vzGSFkDZKkQh3Czsnlf+oJjES5TF5MzrUq4Fp5MK9rODLB0id8hoPQFKzM3cx7dWBHzq91it765gWh1fOUeyQMFKp4hs4Rs2jvbr5VQtPS88QpV5g8qtn8NKsVoNRWBaJYKkfHBoeLeaX3s5eWUzNOiNR+y0B3rVydn5x4JAAAAA2OPisYWGga0jLdtmDR7Lu1ans6Hq/Ykz6b7ICDCNG042185s16hHkFFHe8f0uHwAsV5RlENL0DJB1fU+Us3iDg==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
