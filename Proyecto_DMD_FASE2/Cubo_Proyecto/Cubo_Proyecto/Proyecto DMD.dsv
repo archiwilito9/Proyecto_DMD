@@ -1,0 +1,172 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="d21ce593-5c11-4b09-ae6c-9649c9dfd4e5" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Proyecto DMD</ID>
+  <Name>Proyecto DMD</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Proyecto DMD</DataSourceID>
+  <Schema>
+    <xs:schema id="Proyecto_x0020_DMD" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Proyecto_x0020_DMD" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="29eeee29-4eef-4737-b7ae-da91e7b0f8a5">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_Alimentos" msprop:design-time-name="87cfd50f-c9cc-41fd-8815-649d6625caf0" msprop:DbTableName="Alimentos" msprop:FriendlyName="Alimentos" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="id_alimento" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="e42c52ed-e582-44ee-a167-25deed454132" msprop:DbColumnName="id_alimento" msprop:FriendlyName="id_alimento" type="xs:int" />
+                  <xs:element name="valor_cif" msprop:design-time-name="9b19973e-f420-46dd-948d-92dba2c7a6a5" msprop:DbColumnName="valor_cif" msprop:FriendlyName="valor_cif" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="id_fecha" msprop:design-time-name="9459860e-9d81-4c16-9996-f07698f90f1c" msprop:DbColumnName="id_fecha" msprop:FriendlyName="id_fecha" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="3" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="id_pais" msprop:design-time-name="8427e349-73ba-4223-94b0-2c87bac1a4da" msprop:DbColumnName="id_pais" msprop:FriendlyName="id_pais" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="5" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="id_producto" msprop:design-time-name="62fe4c89-2f90-479f-921d-ae3d50ca3f4c" msprop:DbColumnName="id_producto" msprop:FriendlyName="id_producto" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="9" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Fecha" msprop:design-time-name="9b4d5e51-1bd3-4553-95b3-32b3dc713d85" msprop:DbTableName="Fecha" msprop:FriendlyName="Fecha" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="id_fecha" msprop:design-time-name="5093d4b9-345f-4b8f-b21b-b6beffa1afce" msprop:DbColumnName="id_fecha" msprop:FriendlyName="id_fecha">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="3" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="annio" msprop:design-time-name="632d6c36-1819-448b-9b19-8559f4eb605b" msprop:DbColumnName="annio" msprop:FriendlyName="annio" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Pais" msprop:design-time-name="6aca7d25-f681-4428-99b1-509a7fce5e8f" msprop:DbTableName="Pais" msprop:FriendlyName="Pais" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="id_pais" msprop:design-time-name="e53125b3-1a4a-44cb-b04d-2656e6b9e57b" msprop:DbColumnName="id_pais" msprop:FriendlyName="id_pais">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="5" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="pais" msprop:design-time-name="65ea318b-3da9-43e2-9c8e-e981b7d1e766" msprop:DbColumnName="pais" msprop:FriendlyName="pais" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="200" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Producto" msprop:design-time-name="932ec727-8e78-430a-afe1-f435cce5c17a" msprop:DbTableName="Producto" msprop:FriendlyName="Producto" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="id_producto" msprop:design-time-name="60040088-81e9-4874-b65d-9285b594bdf0" msprop:DbColumnName="id_producto" msprop:FriendlyName="id_producto">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="9" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="codigo_arancelario" msprop:design-time-name="e1b30d66-7d0f-4a81-90c3-13dbb0f2afe7" msprop:DbColumnName="codigo_arancelario" msprop:FriendlyName="codigo_arancelario" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="11" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Descripcion" msprop:design-time-name="590e60bd-5346-4cf6-a500-ce3b3abb02a9" msprop:DbColumnName="Descripcion" msprop:FriendlyName="Descripcion">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="300" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Alimentos" />
+          <xs:field xpath="id_alimento" />
+        </xs:unique>
+        <xs:unique name="dbo_Fecha_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Fecha" />
+          <xs:field xpath="id_fecha" />
+        </xs:unique>
+        <xs:unique name="dbo_Pais_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Pais" />
+          <xs:field xpath="id_pais" />
+        </xs:unique>
+        <xs:unique name="dbo_Producto_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Producto" />
+          <xs:field xpath="id_producto" />
+        </xs:unique>
+        <xs:keyref name="FK_alimento_producto" refer="dbo_Producto_Constraint1">
+          <xs:selector xpath=".//dbo_Alimentos" />
+          <xs:field xpath="id_producto" />
+        </xs:keyref>
+        <xs:keyref name="FK_alimento_fecha" refer="dbo_Fecha_Constraint1">
+          <xs:selector xpath=".//dbo_Alimentos" />
+          <xs:field xpath="id_fecha" />
+        </xs:keyref>
+        <xs:keyref name="FK_alimento_pais" refer="dbo_Pais_Constraint1">
+          <xs:selector xpath=".//dbo_Alimentos" />
+          <xs:field xpath="id_pais" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <Proyecto_x0020_DMD xmlns="" />
+  </Schema>
+</DataSourceView>
