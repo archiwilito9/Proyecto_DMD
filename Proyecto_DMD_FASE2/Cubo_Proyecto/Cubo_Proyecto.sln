@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2010
 Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Cubo_Proyecto", "Cubo_Proyecto\Cubo_Proyecto.dwproj", "{5ED0F5DC-B4BA-4FB2-98DE-17671FE1D803}"
 EndProject
-Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Informes_Proyecto_DMD", "Informes_Proyecto_DMD\Informes_Proyecto_DMD.rptproj", "{042E4192-680F-4DFE-88F1-B2D9BFAEB54F}"
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "INFORMES", "INFORMES\INFORMES.rptproj", "{030BEA39-4015-4A56-B203-3D34D5EE341F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,15 +25,15 @@ Global
 		{5ED0F5DC-B4BA-4FB2-98DE-17671FE1D803}.Release|Default.ActiveCfg = Development
 		{5ED0F5DC-B4BA-4FB2-98DE-17671FE1D803}.Release|Default.Build.0 = Development
 		{5ED0F5DC-B4BA-4FB2-98DE-17671FE1D803}.Release|Default.Deploy.0 = Development
-		{042E4192-680F-4DFE-88F1-B2D9BFAEB54F}.Debug|Default.ActiveCfg = DebugLocal
-		{042E4192-680F-4DFE-88F1-B2D9BFAEB54F}.Debug|Default.Build.0 = DebugLocal
-		{042E4192-680F-4DFE-88F1-B2D9BFAEB54F}.DebugLocal|Default.ActiveCfg = DebugLocal
-		{042E4192-680F-4DFE-88F1-B2D9BFAEB54F}.DebugLocal|Default.Build.0 = DebugLocal
-		{042E4192-680F-4DFE-88F1-B2D9BFAEB54F}.Development|Default.ActiveCfg = DebugLocal
-		{042E4192-680F-4DFE-88F1-B2D9BFAEB54F}.Development|Default.Build.0 = DebugLocal
-		{042E4192-680F-4DFE-88F1-B2D9BFAEB54F}.Release|Default.ActiveCfg = Release
-		{042E4192-680F-4DFE-88F1-B2D9BFAEB54F}.Release|Default.Build.0 = Release
-		{042E4192-680F-4DFE-88F1-B2D9BFAEB54F}.Release|Default.Deploy.0 = Release
+		{030BEA39-4015-4A56-B203-3D34D5EE341F}.Debug|Default.ActiveCfg = DebugLocal
+		{030BEA39-4015-4A56-B203-3D34D5EE341F}.Debug|Default.Build.0 = DebugLocal
+		{030BEA39-4015-4A56-B203-3D34D5EE341F}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{030BEA39-4015-4A56-B203-3D34D5EE341F}.DebugLocal|Default.Build.0 = DebugLocal
+		{030BEA39-4015-4A56-B203-3D34D5EE341F}.Development|Default.ActiveCfg = DebugLocal
+		{030BEA39-4015-4A56-B203-3D34D5EE341F}.Development|Default.Build.0 = DebugLocal
+		{030BEA39-4015-4A56-B203-3D34D5EE341F}.Release|Default.ActiveCfg = Release
+		{030BEA39-4015-4A56-B203-3D34D5EE341F}.Release|Default.Build.0 = Release
+		{030BEA39-4015-4A56-B203-3D34D5EE341F}.Release|Default.Deploy.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
